@@ -14,8 +14,13 @@ public class Babysteps {
     /**
      * @param args the command line arguments
      */
+ private static int a=3;
+
     public static void main(String[] args) {
-       System.out.println("Test");
+        a=a+1;
+       System.out.println("Test "+a);
+      // name="Iuliu";
     }
+
     
 }
